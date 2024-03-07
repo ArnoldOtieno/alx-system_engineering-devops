@@ -6,8 +6,8 @@ do
   if [ $i -eq 8 ]
   then
     echo "Hi"
-    i=$((i + 1))
+    (( i++ ))
   fi
-  i=$((i + 1))
   echo "Best School"
+  (( i++ ))
 done
