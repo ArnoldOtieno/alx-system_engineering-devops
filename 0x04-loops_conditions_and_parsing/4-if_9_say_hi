@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #while if conditions
+#if condition to check if i equal to 8
+
 i=0
 while [ $i -lt 10 ]
 do
