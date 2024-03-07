@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#using case and while loop
+i=0
+while [ $i -lt 21 ]
+do
+  case $i in
+	  4)
+		  echo "$i"
+		  echo "bad luck from china"
+		  (( i++ ))
+		  ;;
+	 9)
+		 echo "$i"
+		 echo "bad luck from japan"
+		 (( i++ ))
+		 ;;
+	 17)
+		 echo "$i"
+		 echo "bad luck from Italy"
+		 (( i++ ))
+		 ;;
+	*)
+		echo "$i"
+		(( i++ ))
+		;;
+  esac
+done
