@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#displaying  directory files
+file="$(ls)"
+for i in $file; do
+	echo "$i"
+done
+
