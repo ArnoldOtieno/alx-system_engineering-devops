@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #using case and while loop
-i=0
+i=1
 while [ $i -lt 21 ]
 do
   case $i in
