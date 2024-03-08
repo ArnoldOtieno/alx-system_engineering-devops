@@ -1,0 +1,3 @@
+#!/usr/bin/env bas
+#Killing a process
+kill -f 7-highlander
