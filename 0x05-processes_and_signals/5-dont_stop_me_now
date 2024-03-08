@@ -3,5 +3,6 @@
 var=$(pgrep -x "4-to_infinity_and_beyond")
 if [ -n "$var" ];
 then
+	echo "Terminated"
 	kill "$var"
 fi
