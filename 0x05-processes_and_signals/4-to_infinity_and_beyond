@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#ending a script using ctrlc
+ctrl() {
+	echo " "
+	exit 1
+}
+
+trap ctrl SIGINT
+while true; do
+	echo "To infinity and beyond"
+	sleep 2
+done
