@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 #Killing a process using its process id
-var=$(pgrep -x "4-to_infinity_and_beyond")
-if [ -n "$var" ];
-then
-	kill "$var"
-	echo "Terminated"
-fi
+kill ="$(pgrep -f 4-to_infinity_and_beyond)"
+
